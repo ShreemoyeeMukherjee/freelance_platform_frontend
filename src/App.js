@@ -1,0 +1,25 @@
+import logo from './logo.svg';
+import ReactDOM from "react-dom/client";
+import {BrowserRouter, Routes,Route} from "react-router-dom";
+import "./css/App.css"
+import Login from './components/Login.js';
+
+
+import RegisterButton from './components/Registerbutton.js';
+
+function App() {
+  return (
+    <div id="Main_page_container">
+   <BrowserRouter>
+   <Routes>
+    <Route path = "/" element = {<RegisterButton/>}/>
+    <Route path = "/login" element = {<Login/>}/>
+    
+   </Routes>
+   </BrowserRouter>
+   </div>
+    
+  )
+}
+
+export default App;

@@ -1,0 +1,113 @@
+#registration_form{
+   
+    width:200px;
+    padding:20px;
+    margin:50px auto;
+    background-color:azure;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,1);
+    height:220px;
+
+}
+#form_container{
+    width:550px;
+    padding:20px;
+    margin:50px auto;
+    background-color:lightpink;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,1);
+    text-align :center;
+    
+
+
+}
+#form_container input{
+    width:90%;
+    padding :12px;
+    margin:10px 0;
+    border:4px solid blanchedalmond;
+    border-radius:5px;
+    font-size:10px;
+    outline:none;
+    transition: border-color  0.3s ease-in-out;
+
+
+}
+#form_container input::placeholder{
+    
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color:brown;
+    
+    
+
+}
+
+#heading_of_main_page{
+  
+    color:blueviolet;
+    
+    /* display: flex;
+    align-items:center;
+    justify-content: center; */
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-weight: 700;
+
+}
+/* #RegisterParentContainer{
+    display:flex;
+} */
+#form_container button{
+    color:blue;
+    border-radius:5px;
+    width:100%;
+    background-color:aquamarine;
+    font-weight: 700;
+}
+#form_container button:hover{
+   background-color: lightseagreen;
+}
+#RegisterAsClient{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius: 10px;
+    width:150px;
+    height:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:lightsalmon;
+    font-weight:bold;
+    text-align:center;
+    padding:2px;
+    border:3px solid maroon
+
+}
+
+#RegisterAsFreelancer{
+    background-color: lightcyan;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius: 10px;
+    width:150px;
+    height:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:lightsalmon;
+    font-weight:bold;
+    text-align:center;
+    padding:2px;
+    border:3px solid maroon
+
+}
+#Heading_of_Registration{
+    color:brown;
+    font-weight:700;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
