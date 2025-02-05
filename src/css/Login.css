@@ -1,0 +1,30 @@
+#LoginButton{
+    width:180px;
+    height:30px;
+    margin:10px;
+    background-color:#ffca28;
+    border-radius: 6px;
+    font-family:"Roboto";
+    font-weight: 600;
+    color:#fff;
+    text-align:center;
+    cursor:pointer;
+    border:2px solid  #e0a800;
+    transition:background-color 0.3s ease transform 0.2s ease;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+
+
+
+}
+#LoginButton:hover{
+    background-color: #e65100;
+    transform:translateX(-5px)
+}
+#LoginError{
+    font-family: Roboto;
+    font-size: small;
+    color:red;
+
+}
